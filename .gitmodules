@@ -1,3 +1,4 @@
-[submodule "ltx2"]
-	path = ltx2
+
+[submodule "third_party/LTX-2"]
+	path = third_party/LTX-2
 	url = https://github.com/Lightricks/LTX-2.git

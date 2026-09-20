@@ -1,0 +1,85 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="transformers" />
+          <option value="diffusers" />
+          <option value="pillow" />
+          <option value="accelerate" />
+          <option value="einops" />
+          <option value="timm" />
+          <option value="av" />
+          <option value="decord" />
+          <option value="ffmpeg-python" />
+          <option value="gradio" />
+          <option value="imageio-ffmpeg" />
+          <option value="imageio" />
+          <option value="jinja2" />
+          <option value="numpy" />
+          <option value="opencv-contrib-python" />
+          <option value="peft" />
+          <option value="requests" />
+          <option value="safetensors" />
+          <option value="scipy" />
+          <option value="sentencepiece" />
+          <option value="torchsde" />
+          <option value="tqdm" />
+          <option value="bitsandbytes" />
+          <option value="basicsr" />
+          <option value="devicetorch" />
+          <option value="facexlib" />
+          <option value="gfpgan" />
+          <option value="psutil" />
+          <option value="realesrgan" />
+          <option value="colorlog" />
+          <option value="moviepy" />
+          <option value="ftfy" />
+          <option value="opencv-python" />
+          <option value="python-dotenv" />
+          <option value="cython" />
+          <option value="gitpython" />
+          <option value="tensorboard" />
+          <option value="hydra-core" />
+          <option value="torchdiffeq" />
+          <option value="librosa" />
+          <option value="nitrous-ema" />
+          <option value="auraloss" />
+          <option value="hydra_colorlog" />
+          <option value="tensordict" />
+          <option value="open_clip_torch" />
+          <option value="soundfile" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="scipy" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pathlib.Path.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

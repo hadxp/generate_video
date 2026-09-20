@@ -1,0 +1,17 @@
+[project]
+name = "ltx2-wrapper"
+version = "0.1.0"
+description = "Thin UV wrapper around the Lightricks LTX-2 inference packages"
+readme = "README.md"
+authors = [
+    { name = "dev", email = "dev@local" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ltx-core",
+    "ltx-pipelines",
+]
+
+[tool.uv.sources]
+ltx-core = { path = "third_party/LTX-2/packages/ltx-core", editable = true }
+ltx-pipelines = { path = "third_party/LTX-2/packages/ltx-pipelines", editable = true }

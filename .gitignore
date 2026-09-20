@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.python-version
+uv.lock
+models/
+output/
+*.mp4
+*.safetensors
