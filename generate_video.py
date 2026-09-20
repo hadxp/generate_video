@@ -21,9 +21,9 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from ltx_pipelines.ti2vid_two_stages import TI2VidTwoStagesPipeline
-from ltx_pipelines.utils.model_paths import ModelPaths
-from ltx_pipelines.utils.media_io.encode import encode_video
+from ltx2.ltx_pipelines.ti2vid_two_stages import TI2VidTwoStagesPipeline
+from ltx2.ltx_pipelines.utils.model_paths import ModelPaths
+from ltx2.ltx_pipelines.utils.media_io.encode import encode_video
 
 
 def frames_for_seconds(seconds: float, fps: float) -> int:
